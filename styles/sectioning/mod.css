@@ -11,7 +11,7 @@ body, :host {
 }
 
 :host {
-  max-width: auto;
+  max-width: none;
 }
 
 [data-color-scheme] {
