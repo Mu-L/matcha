@@ -42,10 +42,14 @@
     "lineWidth": 200,
     "exclude": [
       "coverage",
-      ".pages"
+      ".pages",
+      "app/icons/matchat.svg"
     ]
   },
   "lint": {
+    "rules": {
+      "exclude": ["no-import-prefix", "no-unversioned-import"]
+    },
     "exclude": [
       "coverage",
       ".pages"
